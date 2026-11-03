@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.11.12306.390 stable
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuildingBlocks", "BuildingBlocks", "{5E0ECC01-1DB1-4154-9D29-45665A7CCA35}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClickToCart.Shared", "src\BuildingBlocks\ClickToCart.Shared\ClickToCart.Shared.csproj", "{B5452AAC-12B0-4D6A-844A-9D59D2F33199}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{CA3523D7-C4FB-4EF7-84DA-696C612AF907}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClickToCart.Products", "src\Services\Products\ClickToCart.Products.csproj", "{4FDD57B8-905E-43D8-95A2-8410188D9D40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClickToCart.Orders", "src\Services\Orders\ClickToCart.Orders.csproj", "{C66E1B71-DFD8-4ABD-8784-7461289DDF62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClickToCart.Marketing", "src\Services\Marketing\ClickToCart.Marketing.csproj", "{87DB1AB6-7724-4345-A6F3-25EE7E91F6F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClickToCart.Worker", "src\Services\Worker\ClickToCart.Worker.csproj", "{04D061AA-F904-42FE-8435-48D89C62C6D0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B5452AAC-12B0-4D6A-844A-9D59D2F33199}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5452AAC-12B0-4D6A-844A-9D59D2F33199}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5452AAC-12B0-4D6A-844A-9D59D2F33199}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5452AAC-12B0-4D6A-844A-9D59D2F33199}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FDD57B8-905E-43D8-95A2-8410188D9D40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FDD57B8-905E-43D8-95A2-8410188D9D40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FDD57B8-905E-43D8-95A2-8410188D9D40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FDD57B8-905E-43D8-95A2-8410188D9D40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C66E1B71-DFD8-4ABD-8784-7461289DDF62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C66E1B71-DFD8-4ABD-8784-7461289DDF62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C66E1B71-DFD8-4ABD-8784-7461289DDF62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C66E1B71-DFD8-4ABD-8784-7461289DDF62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87DB1AB6-7724-4345-A6F3-25EE7E91F6F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87DB1AB6-7724-4345-A6F3-25EE7E91F6F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87DB1AB6-7724-4345-A6F3-25EE7E91F6F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87DB1AB6-7724-4345-A6F3-25EE7E91F6F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04D061AA-F904-42FE-8435-48D89C62C6D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04D061AA-F904-42FE-8435-48D89C62C6D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04D061AA-F904-42FE-8435-48D89C62C6D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04D061AA-F904-42FE-8435-48D89C62C6D0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B5452AAC-12B0-4D6A-844A-9D59D2F33199} = {5E0ECC01-1DB1-4154-9D29-45665A7CCA35}
+		{4FDD57B8-905E-43D8-95A2-8410188D9D40} = {CA3523D7-C4FB-4EF7-84DA-696C612AF907}
+		{C66E1B71-DFD8-4ABD-8784-7461289DDF62} = {CA3523D7-C4FB-4EF7-84DA-696C612AF907}
+		{87DB1AB6-7724-4345-A6F3-25EE7E91F6F6} = {CA3523D7-C4FB-4EF7-84DA-696C612AF907}
+		{04D061AA-F904-42FE-8435-48D89C62C6D0} = {CA3523D7-C4FB-4EF7-84DA-696C612AF907}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {06A44D2B-4B15-4ADF-A9E6-F0E4846B6A02}
+	EndGlobalSection
+EndGlobal
