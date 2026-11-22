@@ -22,7 +22,6 @@ An admin picks a product, generates a tracked short link for an ad, and sees cli
 5. [Logging](#5-logging)
 6. [Run it](#6-run-it)
 7. [What is simulated](#7-what-is-simulated)
-8. [CV description](#8-cv-description)
 
 ---
 
@@ -436,11 +435,3 @@ No database is created. Every repository is a thread-safe in-memory class with s
 | No login | JWT and roles (SuperAdmin, CampaignManager, Analyst) |
 | Redirect inside Marketing | Redirect as its own service behind a load balancer with a Redis link cache |
 
-## 8. CV description
-
-> **ClickToCart: ad campaign tracking platform for e-commerce** (.NET, React, Serilog)
-> - Built four microservices (Products, Orders, Marketing, Worker) in one solution using Clean Architecture and SOLID principles.
-> - Implemented UTM-tagged short links, a redirect endpoint with a 7-day attribution cookie, and event-driven, idempotent order-to-ad attribution.
-> - Designed a Worker with click ingestion, attribution, and simulated Meta ad-spend sync running as background jobs over an in-process queue.
-> - Created a React admin dashboard showing ROAS, CPA, and conversion rate per ad, plus a customer simulator for demos.
-> - Added structured file logging, global error handling, and Swagger across all services.
